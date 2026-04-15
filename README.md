@@ -1,4 +1,4 @@
-# PureQ Weight Transfer for InZOI
+# Weight Transfer for InZOI
 
 Advanced Blender add-on for transferring clean avatar weights to garments with profile-based workflows and manual one-shot support.
 
@@ -42,4 +42,4 @@ Advanced Blender add-on for transferring clean avatar weights to garments with p
 ## License
 
 Apache-2.0 (see add-on metadata in `__init__.py`).
-# Tresdtres-weight-profile-inzoi
+# Tresdtres
