@@ -41,5 +41,5 @@ Advanced Blender add-on for transferring clean avatar weights to garments with p
 
 ## License
 
-Apache-2.0 (see add-on metadata in `__init__.py`).
+Apache-2.0.
 # Tresdtres
