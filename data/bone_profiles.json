@@ -1,0 +1,109 @@
+{
+  "version": "1.0",
+  "profiles": {
+    "SHORT_SKIRT": {
+      "allowed_bones": [
+        "pelvis",
+        "thigh_l", "thigh_r",
+        "thigh_twist_01_l", "thigh_twist_01_r",
+        "thigh_twist_02_l", "thigh_twist_02_r"
+      ],
+      "min_weight": 0.001,
+      "max_influences": 4
+    },
+
+    "MEDIUM_SKIRT": {
+      "allowed_bones": [
+        "pelvis",
+        "thigh_l", "thigh_r",
+        "thigh_twist_01_l", "thigh_twist_01_r",
+        "calf_l", "calf_r"
+      ],
+      "min_weight": 0.001,
+      "max_influences": 4
+    },
+
+    "LONG_SKIRT": {
+      "allowed_bones": [
+        "pelvis",
+        "thigh_l", "thigh_r",
+        "thigh_twist_01_l", "thigh_twist_01_r",
+        "thigh_twist_02_l", "thigh_twist_02_r",
+        "calf_l", "calf_r"
+      ],
+      "forbidden_bones": [
+        "foot_l", "foot_r",
+        "ball_l", "ball_r",
+        "bigtoe_01_l", "bigtoe_01_r"
+      ],
+      "min_weight": 0.001,
+      "max_influences": 3
+    },
+
+    "TROUSERS": {
+      "allowed_bones": [
+        "pelvis",
+        "thigh_l", "thigh_r",
+        "thigh_twist_01_l", "thigh_twist_01_r",
+        "thigh_twist_02_l", "thigh_twist_02_r",
+        "calf_l", "calf_r",
+        "calf_twist_01_l", "calf_twist_01_r"
+      ],
+      "min_weight": 0.02,
+      "max_influences": 4
+    },
+
+    "SHIRT": {
+      "allowed_bones": [
+        "spine_01", "spine_02", "spine_03",
+        "clavicle_l", "clavicle_r",
+        "upperarm_l", "upperarm_r",
+        "lowerarm_l", "lowerarm_r"
+      ],
+      "forbidden_bones": [
+        "pelvis", "thigh_l", "thigh_r",
+        "calf_l", "calf_r", "foot_l", "foot_r"
+      ],
+      "min_weight": 0.02,
+      "max_influences": 4
+    },
+
+    "JACKET": {
+      "allowed_bones": [
+        "spine_01", "spine_02", "spine_03", "spine_04",
+        "clavicle_l", "clavicle_r",
+        "upperarm_l", "upperarm_r",
+        "lowerarm_l", "lowerarm_r"
+      ],
+      "forbidden_bones": [
+        "pelvis", "thigh_l", "thigh_r",
+        "calf_l", "calf_r", "foot_l", "foot_r"
+      ],
+      "min_weight": 0.02,
+      "max_influences": 4
+    },
+
+    "CUSTOM": {
+      "allowed_bones": [],
+      "min_weight": 0.01,
+      "max_influences": 8
+    }
+  },
+  "lod_rules": {
+    "LOD0": {
+      "max_influences": 4,
+      "weight_multiplier": 1.0,
+      "smooth": 0.5
+    },
+    "LOD1": {
+      "max_influences": 3,
+      "weight_multiplier": 1.25,
+      "smooth": 0.3
+    },
+    "LOD2": {
+      "max_influences": 2,
+      "weight_multiplier": 1.5,
+      "smooth": 0.0
+    }
+  }
+}

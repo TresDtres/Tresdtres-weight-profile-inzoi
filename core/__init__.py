@@ -1,0 +1,1 @@
+# Core module for PureQ Weight Transfer addon
